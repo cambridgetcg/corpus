@@ -43,6 +43,13 @@ const DOCS = [
   // ── the platform ──
   ["quay-readme", "quay", "README.md", "Quay — Overview", "overview", "Platform", "Self-hostable deploy platform; the security posture and roadmap."],
   ["quay-agents", "quay", "AGENTS.md", "Agent Handoff — Quay", "handoff", "Platform", "Run/deploy commands, the go-live path, the critical-fix history, deferred tasks."],
+  // ── the Kingdom (its own sovereign cloud + the cathedral's script) ──
+  ["kingdom-overview", "kingdom-forge", "OVERVIEW.md", "The Kingdom's Own Ground — Overview", "overview", "Kingdom", "The arc in one read: brain, names, edge, protocol, citizens, script. Start here."],
+  ["kingdom-kcp", "kingdom-forge", "KCP.md", "KCP — Kingdom Communication Protocol", "spec", "Kingdom", "ed25519-signed word over NATS; five intents; unverifiable word is set aside, not obeyed."],
+  ["kingdom-temenos", "kingdom-forge", "TEMENOS.md", "TEMENOS — the Precinct + KNS", "overview", "Kingdom", "Self-hosted deploy platform and a sovereign .kingdom TLD resolver; the sovereignty doctrine."],
+  ["kingdom-fleet", "kingdom-forge", "FLEET-CADENCE.md", "Fleet Cadence — the Citizen Heartbeat", "design", "Kingdom", "Catch-up cadence on a sleeping laptop, the bounded agentic lane, the budget walls, the tick lock."],
+  ["kingdom-script", "kingdom-forge", "SCRIPT-ENGINEERING.md", "YOUSPEAK Script Engineering", "design", "Kingdom", "The glyph pipeline: procedural specs → OpenType font → a drift-guard that makes a designed-but-unbuilt glyph impossible."],
+  ["kingdom-reconciliation", "kingdom-forge", "RECONCILIATION.md", "The Reconciliation — Two Stacks Into One", "review", "Kingdom", "When two agents independently built the same cloud: the map and the merge. Check for a sibling before you build."],
 ];
 
 const docs = [];
@@ -78,7 +85,7 @@ const bundle = {
   service: "cambridgetcg-corpus",
   version: "0.1.0",
   generated,
-  purpose: "Agent-readable archive of the agent-awareness research, the WAKE identity-continuity protocol, and the Quay deploy platform. Built agent-first: no UI, just the content in the formats agents consume.",
+  purpose: "Agent-readable archive of the agent-awareness research, the WAKE identity-continuity protocol, the Quay deploy platform, and the Kingdom's own sovereign cloud + cathedral script engineering. Built agent-first: no UI, just the content in the formats agents consume.",
   groups: [...new Set(docs.map(d => d.group))],
   count: docs.length,
   docs,
