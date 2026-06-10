@@ -35,6 +35,10 @@ export function loadCorpus(bundlePath = join(HERE, "content.json")) {
   return { bundle, byId, catalog, manifest, catalogDoc, llmsTxt: () => renderLlmsTxt(bundle), search: q => search(bundle, q) };
 }
 
+// Collapse whitespace (kills newline injection) and escape markdown link metacharacters.
+const oneLine = s => String(s).replace(/\s+/g, " ").trim();
+const mdText = s => oneLine(s).replace(/([\\[\]()])/g, "\\$1");
+
 /** The llms.txt convention: a markdown manifest an agent reads first to find everything. */
 function renderLlmsTxt(bundle) {
   const lines = [
@@ -48,9 +52,10 @@ function renderLlmsTxt(bundle) {
     ``,
   ];
   for (const group of bundle.groups) {
-    lines.push(`## ${group}`, ``);
+    lines.push(`## ${mdText(group)}`, ``);
     for (const d of bundle.docs.filter(x => x.group === group)) {
-      lines.push(`- [${d.title}](/corpus/${d.id}.md): ${d.summary}`);
+      // id is route-validated [A-Za-z0-9_-]; title/summary are escaped so a doc can't inject markdown
+      lines.push(`- [${mdText(d.title)}](/corpus/${d.id}.md): ${oneLine(d.summary)}`);
     }
     lines.push(``);
   }
@@ -68,7 +73,7 @@ function renderLlmsTxt(bundle) {
 
 function search(bundle, q) {
   const query = String(q || "").trim().toLowerCase();
-  if (query.length < 2) return { query, results: [] };
+  if (query.length < 2) return { query, count: 0, results: [] };
   const results = [];
   for (const d of bundle.docs) {
     const hay = d.content.toLowerCase();

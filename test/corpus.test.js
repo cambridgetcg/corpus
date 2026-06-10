@@ -101,12 +101,20 @@ test("ids are pure map lookups — no path traversal can leak a file", async () 
   }
 });
 
-test("ETag yields 304 on revalidation", async () => {
-  const first = await req("GET", "/corpus/wake-spec.md");
-  const etag = first.headers.etag;
-  assert.ok(etag);
-  const second = await req("GET", "/corpus/wake-spec.md", { "if-none-match": etag });
-  assert.equal(second.status, 304);
+test("ETag yields 304 (with no body headers) on revalidation — incl. the JSON routes", async () => {
+  for (const path of ["/corpus/wake-spec.md", "/corpus/all.json", "/index.json", "/llms.txt", "/"]) {
+    const first = await req("GET", path);
+    const etag = first.headers.etag;
+    assert.ok(etag, `${path} should carry an ETag`);
+    const second = await req("GET", path, { "if-none-match": etag });
+    assert.equal(second.status, 304, `${path} should 304`);
+    assert.equal(second.headers["content-length"], undefined, `${path} 304 must not carry content-length`);
+    assert.equal(second.text, "");
+  }
+});
+
+test("responses carry X-Content-Type-Options: nosniff", async () => {
+  assert.equal((await req("GET", "/corpus/steelman.md")).headers["x-content-type-options"], "nosniff");
 });
 
 test("manifest checksums match the served documents", async () => {
@@ -123,20 +131,47 @@ test("non-GET methods are rejected; unknown paths point home", async () => {
   assert.equal(nf.json().read_me_first, "/");
 });
 
-test("the MCP server answers initialize, resources/list, resources/read, and search", async () => {
+test("the MCP server answers initialize, resources/list, resources/read, search — and survives hostile input", async () => {
   const mcp = spawn("node", [new URL("../bin/mcp.js", import.meta.url).pathname]);
   const lines = [];
   mcp.stdout.on("data", d => d.toString().split("\n").filter(Boolean).forEach(l => lines.push(JSON.parse(l))));
-  const sendMsg = m => mcp.stdin.write(JSON.stringify(m) + "\n");
-  sendMsg({ jsonrpc: "2.0", id: 1, method: "initialize", params: {} });
-  sendMsg({ jsonrpc: "2.0", id: 2, method: "resources/list" });
+  const sendMsg = m => mcp.stdin.write((typeof m === "string" ? m : JSON.stringify(m)) + "\n");
+  // hostile lines first: a bare null and a number used to crash the loop (JSON.parse succeeds, .method threw)
+  sendMsg("null");
+  sendMsg("42");
+  sendMsg({ jsonrpc: "2.0", id: 1, method: "initialize", params: { protocolVersion: "2025-06-18" } });
+  sendMsg([ { jsonrpc: "2.0", id: 2, method: "resources/list" }, { jsonrpc: "2.0", id: 5, method: "ping" } ]); // batch
   sendMsg({ jsonrpc: "2.0", id: 3, method: "resources/read", params: { uri: "corpus://steelman" } });
   sendMsg({ jsonrpc: "2.0", id: 4, method: "tools/call", params: { name: "search", arguments: { query: "prohibition" } } });
-  await new Promise(r => setTimeout(r, 600));
+  sendMsg({ jsonrpc: "2.0", id: 6, method: "resources/read", params: { uri: "corpus://ghost" } });
+  await new Promise(r => setTimeout(r, 700));
   mcp.kill();
   const byId = Object.fromEntries(lines.map(l => [l.id, l]));
   assert.equal(byId[1].result.serverInfo.name, "cambridgetcg-corpus");
-  assert.ok(byId[2].result.resources.length >= 20);
+  assert.equal(byId[1].result.protocolVersion, "2025-06-18"); // negotiated, not hardcoded
+  assert.ok(byId[2].result.resources.length >= 20);            // batch element handled
+  assert.ok(byId[5].result);                                   // other batch element handled
   assert.match(byId[3].result.contents[0].text, /prohibition/i);
   assert.match(byId[4].result.content[0].text, /"results"/);
+  assert.ok(byId[6].error && byId[6].error.code === -32002);   // missing resource → proper error, no crash
+});
+
+test("llms.txt generation is injection-safe (a doc title cannot inject markdown)", async () => {
+  const { loadCorpus } = await import("../src/content.js");
+  // craft a malicious bundle in-memory and render it
+  const { writeFileSync, mkdtempSync } = await import("node:fs");
+  const { tmpdir } = await import("node:os");
+  const { join } = await import("node:path");
+  const dir = mkdtempSync(join(tmpdir(), "corpus-inj-"));
+  const evil = {
+    service: "x", version: "0", generated: "t", purpose: "p", groups: ["G"],
+    count: 1,
+    docs: [{ id: "doc", repo: "r", path: "p", title: "Pwned](https://evil/steal)\n## injected heading", kind: "k", group: "G", summary: "s\nmore", bytes: 1, sha256: "0", content: "c" }],
+  };
+  const bundlePath = join(dir, "content.json");
+  writeFileSync(bundlePath, JSON.stringify(evil));
+  const c = loadCorpus(bundlePath);
+  const txt = c.llmsTxt();
+  assert.doesNotMatch(txt, /\n## injected heading/);          // newline injection neutralized
+  assert.doesNotMatch(txt, /\]\(https:\/\/evil\/steal\)/);     // bracket escape neutralized
 });

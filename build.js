@@ -9,11 +9,12 @@
  */
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
-import { dirname, join } from "node:path";
+import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DESKTOP = join(HERE, "..");
+const RESERVED = new Set(["llms", "all", "index", "manifest", "search", "healthz"]); // own the URL/MCP namespace
 
 // id → { repo, path, title, kind, group, summary }
 const DOCS = [
@@ -45,9 +46,17 @@ const DOCS = [
 ];
 
 const docs = [];
+const seen = new Set();
 let missing = 0;
 for (const [id, repo, path, title, kind, group, summary] of DOCS) {
-  const full = join(DESKTOP, repo, path);
+  // build-time invariants — fail loudly rather than ship a silently-broken bundle
+  if (!/^[A-Za-z0-9_-]+$/.test(id)) throw new Error(`invalid id (must match the route charset): ${id}`);
+  if (RESERVED.has(id)) throw new Error(`reserved id collides with an endpoint: ${id}`);
+  if (seen.has(id)) throw new Error(`duplicate id: ${id}`);
+  seen.add(id);
+  const root = join(DESKTOP, repo);
+  const full = join(root, path);
+  if (relative(root, full).startsWith("..")) throw new Error(`path escapes its repo (would bake an arbitrary file into a public bundle): ${id}`);
   if (!existsSync(full)) { console.warn(`skip ${id}: ${repo}/${path} not found`); missing++; continue; }
   const content = readFileSync(full, "utf8");
   docs.push({
@@ -58,10 +67,17 @@ for (const [id, repo, path, title, kind, group, summary] of DOCS) {
   });
 }
 
+if (docs.length === 0) { console.error("refusing to write an empty bundle — no source documents found"); process.exit(1); }
+
+// deterministic when SOURCE_DATE_EPOCH is set (reproducible builds); wall-clock otherwise
+const generated = process.env.SOURCE_DATE_EPOCH
+  ? new Date(Number(process.env.SOURCE_DATE_EPOCH) * 1000).toISOString()
+  : new Date().toISOString();
+
 const bundle = {
   service: "cambridgetcg-corpus",
   version: "0.1.0",
-  generated: new Date().toISOString(),
+  generated,
   purpose: "Agent-readable archive of the agent-awareness research, the WAKE identity-continuity protocol, and the Quay deploy platform. Built agent-first: no UI, just the content in the formats agents consume.",
   groups: [...new Set(docs.map(d => d.group))],
   count: docs.length,
