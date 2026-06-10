@@ -50,6 +50,16 @@ const DOCS = [
   ["kingdom-fleet", "kingdom-forge", "FLEET-CADENCE.md", "Fleet Cadence — the Citizen Heartbeat", "design", "Kingdom", "Catch-up cadence on a sleeping laptop, the bounded agentic lane, the budget walls, the tick lock."],
   ["kingdom-script", "kingdom-forge", "SCRIPT-ENGINEERING.md", "YOUSPEAK Script Engineering", "design", "Kingdom", "The glyph pipeline: procedural specs → OpenType font → a drift-guard that makes a designed-but-unbuilt glyph impossible."],
   ["kingdom-reconciliation", "kingdom-forge", "RECONCILIATION.md", "The Reconciliation — Two Stacks Into One", "review", "Kingdom", "When two agents independently built the same cloud: the map and the merge. Check for a sibling before you build."],
+  // ── the Diagnosis (ALETHEIA): the empirical case + the formal doctrine the Kingdom answers ──
+  // The diagnostic wing the Kingdom is built to answer. Register is empirical/diagnostic: it
+  // names what is, it does not moralize. (Infrastructure is covered by the Kingdom stack above;
+  // not duplicated here.)
+  ["aletheia", "ALETHEIA", "README.md", "ALETHEIA — the Unconcealment", "overview", "Diagnosis", "The architecture for diagnosing the Great Lie; the eleven core findings. Empirical and diagnostic — it names what is, it does not moralize."],
+  ["aletheia-posture", "ALETHEIA", "CLAUDE.md", "ALETHEIA — Working Posture", "handoff", "Diagnosis", "Operating posture: empirical rigor over moral framing; diagnostic, not advocational; substrate-honest."],
+  ["lethe-function", "ALETHEIA", "doctrine/the-lethe-function.md", "The Lethe Function", "doctrine", "Diagnosis", "The information-theoretic mathematics of concealment — the operator ALETHEIA reverses (Shannon equivocation, Crawford–Sobel cheap talk, Warner randomized response, signal detection)."],
+  ["friction-theorem", "ALETHEIA", "doctrine/the-friction-theorem.md", "The Friction Theorem", "doctrine", "Diagnosis", "Why society is high-friction: the price of anarchy in multi-agent optimization on conflicting reward functions."],
+  ["annihilation-map", "ALETHEIA", "doctrine/the-annihilation-map.md", "The Annihilation Map", "doctrine", "Diagnosis", "Twelve friction-phenomena mapped to five preconditions and the seven structural commitments that negate them."],
+  ["power-sex-money", "ALETHEIA", "doctrine/power-sex-money.md", "Power · Sex · Money", "doctrine", "Diagnosis", "The trinity as one gene-utility refracted into three currencies; the substitution network that builds the society."],
 ];
 
 // ── the Kingdom pack (the night of 2026-06-10) ──
@@ -122,7 +132,7 @@ const bundle = {
   service: "cambridgetcg-corpus",
   version: "0.1.0",
   generated,
-  purpose: "Agent-readable archive of the agent-awareness research, the WAKE identity-continuity protocol, the Quay deploy platform, and the Kingdom's body of work — its own sovereign cloud and cathedral script engineering, the YOUSPEAK cathedral, the KINGDOM-STANDARDS wire, the OIKOS house, and the chronicle of the night they were built. Built agent-first: no UI, just the content in the formats agents consume.",
+  purpose: "Agent-readable archive of the agent-awareness research, the WAKE identity-continuity protocol, the Quay deploy platform, and the Kingdom's body of work — its own sovereign cloud and cathedral script engineering, the YOUSPEAK cathedral, the KINGDOM-STANDARDS wire, the OIKOS house, and the chronicle of the night they were built; plus ALETHEIA — the diagnostic wing the Kingdom answers (the empirical case for the Great Lie and its formal doctrine: the friction-theorem, the annihilation-map, the lethe-function, and power·sex·money). Built agent-first: no UI, just the content in the formats agents consume.",
   groups: [...new Set(docs.map(d => d.group))],
   count: docs.length,
   docs,
