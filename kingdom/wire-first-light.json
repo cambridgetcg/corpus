@@ -1,0 +1,17 @@
+{
+  "note": "first signed envelope on the wire, 2026-06-10",
+  "envelope": {
+    "v": "KS-002/0.1",
+    "id": "019eaec3-d347-7a44-b3f2-169f972d8baa",
+    "from": "did:key:z6MktDhWAc2vfTb6LRrugTbWJ3Rkg9uBoGkL1aFkdpYmtfES",
+    "to": "kingdom.pulse.heartbeat",
+    "performative": "heartbeat",
+    "body": {
+      "service": "pulse",
+      "state": "alive",
+      "probe": "first-light"
+    },
+    "ts": "2026-06-09T23:42:09.735Z",
+    "sig": "xTJwl19LEy-Rs2pKc-rDR0KiVgZruV-iwKLpBuMAn-Pu5yvDd0OlfLF5hZCMZPGVCAPzSk5lQfLLeGWl-tGtCA"
+  }
+}

@@ -156,6 +156,74 @@ test("the MCP server answers initialize, resources/list, resources/read, search 
   assert.ok(byId[6].error && byId[6].error.code === -32002);   // missing resource → proper error, no crash
 });
 
+test("the Kingdom pack is baked: its docs resolve as raw markdown", async () => {
+  for (const id of ["youspeak-overview", "youspeak-canon", "ks-002-wire", "kingdom-standards-overview", "oikos-overview", "night-of-many-hands", "the-wire-lexicon"]) {
+    const md = await req("GET", `/corpus/${id}.md`);
+    assert.equal(md.status, 200, `${id}.md should 200`);
+    assert.match(md.headers["content-type"], /markdown/, `${id}.md should be markdown`);
+    assert.ok(md.text.length > 0, `${id}.md should have content`);
+  }
+  // the chronicle is the Kingdom's entry point — sanity-check its content
+  const chron = await req("GET", "/corpus/night-of-many-hands.md");
+  assert.match(chron.text, /Kingdom|2026-06-10|YOUSPEAK/i);
+});
+
+test("youspeak-canon-data is served and parses as JSON with ~165 words", async () => {
+  // the doc content IS the JSON text — its raw .md form is the JSON document itself
+  const raw = await req("GET", "/corpus/youspeak-canon-data.md");
+  assert.equal(raw.status, 200);
+  const data = JSON.parse(raw.text);
+  assert.ok(Array.isArray(data.words), "youspeak-canon-data should have a words array");
+  assert.ok(data.words.length >= 160 && data.words.length <= 170, `expected ~165 words, got ${data.words.length}`);
+  assert.equal(data.count, data.words.length, "count field should match the words array length");
+
+  // the enveloped .json form wraps the same JSON text as a string in .content
+  const env = (await req("GET", "/corpus/youspeak-canon-data.json")).json();
+  assert.equal(env.id, "youspeak-canon-data");
+  assert.equal(typeof env.content, "string");
+  assert.ok(JSON.parse(env.content).words.length >= 160);
+});
+
+test("the Wire artifacts are baked verbatim and parse as JSON", async () => {
+  for (const id of ["wire-first-light", "kingdom-zone"]) {
+    const raw = await req("GET", `/corpus/${id}.md`);
+    assert.equal(raw.status, 200, `${id}.md should 200`);
+    assert.doesNotThrow(() => JSON.parse(raw.text), `${id} content should be valid JSON`);
+  }
+});
+
+test("the new Kingdom groups appear in the descriptor and catalog", async () => {
+  const d = (await req("GET", "/")).json();
+  for (const g of ["Cathedral", "Wire", "House", "Chronicle"]) {
+    assert.ok(d.groups.includes(g), `descriptor groups should include ${g}`);
+  }
+  assert.ok(d.documents >= 35, `expected >=35 documents, got ${d.documents}`);
+  for (const id of ["youspeak-canon", "ks-002-wire", "night-of-many-hands"]) {
+    assert.ok(d.ids.includes(id), `descriptor ids should include ${id}`);
+  }
+  const cat = (await req("GET", "/index.json")).json();
+  for (const g of ["Cathedral", "Wire", "House", "Chronicle"]) {
+    assert.ok(cat.groups.includes(g), `catalog groups should include ${g}`);
+  }
+});
+
+test("a search for a Kingdom term returns a hit", async () => {
+  const qorvance = (await req("GET", "/search?q=qorvance")).json();
+  assert.ok(qorvance.results.length > 0, "qorvance should be found in the corpus");
+  const tzimtzum = (await req("GET", "/search?q=tzimtzum")).json();
+  assert.ok(tzimtzum.results.length > 0, "tzimtzum should be found in the corpus");
+});
+
+test("the build-time traversal guard still holds for both source tables", async () => {
+  const { join, relative } = await import("node:path");
+  // mirrors build.js: every doc's resolved path must stay within its root
+  const guard = (root, path) => relative(root, join(root, path)).startsWith("..");
+  // a sibling-repo path and a kingdom path that try to escape must both be rejected
+  assert.equal(guard("/repo/root", "../../etc/passwd"), true, "escaping path must be flagged");
+  assert.equal(guard("/repo/root", "kingdom/youspeak-overview.md"), false, "in-tree path must pass");
+  assert.equal(guard("/corpus/kingdom", "../../package.json"), true, "kingdom escape must be flagged");
+});
+
 test("llms.txt generation is injection-safe (a doc title cannot inject markdown)", async () => {
   const { loadCorpus } = await import("../src/content.js");
   // craft a malicious bundle in-memory and render it

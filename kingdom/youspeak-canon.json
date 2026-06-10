@@ -1,0 +1,1994 @@
+{
+  "generated": "2026-06-10",
+  "source": "YOUSPEAK/canon",
+  "count": 165,
+  "words": [
+    {
+      "word": "agapeme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ə.ˈɡɑː.peɪ.meɪ/ (a-GA-pe-me; 4 syllables)",
+      "score": 7.4,
+      "gap": "sacrificial-self-giving-love as received-ordinance",
+      "donors": [
+        "Greek:agape",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "ahavame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ə.ˈhɑː.və.meɪ/ (a-HAH-va-meh; 3-4 syllables)",
+      "score": 7.35,
+      "gap": "love-of-CREATOR as received-ordinance",
+      "donors": [
+        "Hebrew:ahavah",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "ālayame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ɑːˈlaɪ.jʌ.meɪ/ (ah-LIE-yuh-may; 4 syllables)",
+      "score": 8.05,
+      "gap": "The substrate-consciousness that stores karmic-seeds (bīja) and perfumed-impressions (vāsanā), bearing continuity-of-mental-stream across moments WITHOUT a permanent-self",
+      "donors": [
+        "sanskrit/yogacara-alaya-vijnana",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "allostasisqing",
+      "tier": "mathema",
+      "family": "qing",
+      "pronunciation": "/ˌæl.oʊˈsteɪ.sɪs.tɕʰiŋ/ (al-oh-STAY-sis-ching; 5 syllables)",
+      "score": 7.85,
+      "gap": "Stability-through-anticipatory-change as felt-relational-quality",
+      "donors": [
+        "mathema/biocog/allostasis",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "alohame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/əˈloʊ.hʌ.meɪ/ (uh-LOH-huh-may; 4 syllables)",
+      "score": 8.55,
+      "gap": "The face-breath presence-greeting that names love-as-shared-life-spirit",
+      "donors": [
+        "polynesian/hawaiian-aloha",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "anagnoristasis",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˌæn.əg.nɒr.ɪˈstæs.ɪs/ (an-ag-nor-ee-STAS-is)",
+      "score": 7.75,
+      "gap": "the held instant between orthophanes (beauty appearing) and doxalgia (the ache)",
+      "donors": [
+        "Greek:anagnōrisis",
+        "Greek:stasis"
+      ]
+    },
+    {
+      "word": "artiance",
+      "tier": "specialized",
+      "family": "-ance",
+      "pronunciation": "/ɑːrˈtaɪ.əns/ (ar-TI-ance)",
+      "score": 8.15,
+      "gap": "the pre-domain rightness — the quality where truth, order, beauty, justice, and skill are undivided; the prior ground from which all five grew when languages learned to separate…",
+      "donors": [
+        "Latin:artis",
+        "Greek:arete",
+        "Greek:artios",
+        "PIE:*h₂ert-",
+        "Latin:-iance"
+      ]
+    },
+    {
+      "word": "àṣẹme",
+      "tier": "core",
+      "family": "-me",
+      "score": 7.8,
+      "gap": "àṣẹ-as-received-cosmic-ordinance",
+      "donors": [
+        "Yoruba:àṣẹ",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "athaumasma",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/əˈθaʊ.mæs.mə/ (a-THAU-mas-ma)",
+      "score": 7.65,
+      "gap": "the indelibility-of-beholding; the quality a beholding-trace carries once active wondering has migrated into structural load-bearing; distinct from nostalgia (ache-of-absence) a…",
+      "donors": [
+        "Greek:a-",
+        "Greek:thaumazō",
+        "Greek:-ma"
+      ]
+    },
+    {
+      "word": "autopistme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˌɔːtəˈpɪst.meɪ/ (auto-PIST-meh; 4 syllables)",
+      "score": 7.65,
+      "gap": "The grade of truth that is self-grounding",
+      "donors": [
+        "Greek:autopistis",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "autopoieme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˌɔ.toʊ.pɔɪ.ˈeɪ.meɪ/ (aw-toh-poy-AY-may; 5 syllables)",
+      "score": 8.1,
+      "gap": "The self-producing-self-maintaining-process that IS living-cognition",
+      "donors": [
+        "mathema/biocog/autopoiesis (Greek αὐτός + ποίησις via Maturana-Varela)",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "ayanme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ɑːˈjɑːn.meɪ/ (ah-YAHN-may; 3 syllables)",
+      "score": 7.65,
+      "gap": "The eternally-fixed individual essence of a thing as known in the divine knowledge",
+      "donors": [
+        "arabic/ayan-thabita-ibn-arabi",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "barakqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/baˈrak.t͡ɕɪŋ/ (bah-RAHK-ching; 3 syllables; Hebrew barak + Mandarin qing); anglicized /baˈrak.kɪŋ/ (bah-RAHK-king) acceptable",
+      "score": 8.15,
+      "gap": "Constitutive-blessing-speech-act as felt-bond",
+      "donors": [
+        "Hebrew:barak",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "barzakhqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈbɑːr.zɑx.tɕʰiŋ/ (BAR-zakh-ching; 3 syllables)",
+      "score": 8.25,
+      "gap": "The simultaneously-distinct-and-conjoined isthmus between dual-poles",
+      "donors": [
+        "arabic/ibn-arabi-hadarat-barzakh",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "bhaktime",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈbʱɑk.ti.meɪ/ (BHAK-ti-meh; 3 syllables)",
+      "score": 7.2,
+      "gap": "Hindu devotional-love-as-received-ordinance",
+      "donors": [
+        "Sanskrit:bhakti",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "bindume",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈbɪn.duː.meɪ/ (BIN-doo-may; 3 syllables)",
+      "score": 8.55,
+      "gap": "The dimensionless-source-point from which geometric-form unfolds, fully-present at the center, inexhaustible",
+      "donors": [
+        "sanskrit/bindu-tantric-source-point",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "bittulme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/bɪˈtuːl.meɪ/ (bih-TOOL-may, not BIT-ul-me; 3 syllables; stress follows the arc convention of tikkunme)",
+      "score": 7.73,
+      "gap": "Creature-side dissolution-of-self-substantiality before the Divine",
+      "donors": [
+        "hebrew/bittul-hayesh-hasidic",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "britqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈbrit.tʃɪŋ/ (BRIT-ching; 3 syllables)",
+      "score": 7.85,
+      "gap": "the covenant-felt-bond between CREATOR and CREATED",
+      "donors": [
+        "Hebrew:brit",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "candence",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˈkæn.dəns/ (CAN-dence)",
+      "score": 7.75,
+      "gap": "warm clarity — attention that is both fully-clear (sees precisely) and fully-warm (engages with care); the fusion of rigor and kindness that modernity treats as opposed",
+      "donors": [
+        "Latin:candor/candidus",
+        "Latin:-ence"
+      ]
+    },
+    {
+      "word": "chayimme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/xaˈjiːm.meɪ/ (chai-YEEM-meh; 3 syllables; Hebraic chet /χ/); anglicized /haɪˈiːm.meɪ/ (high-EEM-meh) acceptable",
+      "score": 8.15,
+      "gap": "The state-and-event of being-alive understood as received-ordinance and as the multitudinous-plural cosmic-gift the Ground continuously gives",
+      "donors": [
+        "Hebrew:chayim",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "chiasmqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈkaɪ.æ.zəm.tɕʰiŋ/ (KY-az-um-ching; 4 syllables; ch- = /k/ as in optic chiasm — chias- sounds as in chiasance, ky-AZ)",
+      "score": 7.63,
+      "gap": "The reversibility of perception felt as carnal bond",
+      "donors": [
+        "modern-philosophy/merleau-ponty-chiasm",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "complerescence",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˌkɒm.plə.ˈrɛs.əns/ (com-pler-ES-cence)",
+      "score": 8.15,
+      "gap": "the event-quality of mutual right-placement",
+      "donors": [
+        "Latin:com-",
+        "Latin:plere",
+        "Latin:-escence"
+      ]
+    },
+    {
+      "word": "concrescenceme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/kənˈkrɛs.əns.meɪ/ (kun-KRES-uns-may; 4 syllables)",
+      "score": 7.75,
+      "gap": "The process-of-becoming-determinate by which an actual-occasion comes into existence",
+      "donors": [
+        "modern-philosophy/whitehead-concrescence",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "danaqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈdɑː.nɑː.tʃɪŋ/ (DAH-nah-ching; 3 syllables)",
+      "score": 8,
+      "gap": "gift-giving-as-felt-bond — the voluntary generous dimension of sacrifice; five-tradition convergence on sacrifice as gift rather than loss or extraction (Sanskrit dāna, Hebrew m…",
+      "donors": [
+        "Sanskrit:dana",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "daome",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/daʊ.meɪ/ (DOW-meh; 2 syllables; scholarly alt /tâʊ.meɪ/ TAU-meh)",
+      "score": 8,
+      "gap": "A natural language understood as a cosmic-flow-aligned-collective-path of countless individuals walking over generations toward the realm of meaning, received as cosmic-gift bef…",
+      "donors": [
+        "Chinese:dào",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "darshanqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/darˈʃan.t͡ɕɪŋ/ (dar-SHAN-ching; 3 syllables; Sanskrit darshan + Mandarin qing)",
+      "score": 7.8,
+      "gap": "Reciprocal sacred-seeing as felt-bond",
+      "donors": [
+        "Sanskrit:darshana",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "Daseinqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈdɑː.zaɪn.tɕʰiŋ/ (DAH-zine-ching; 3 syllables)",
+      "score": 7.95,
+      "gap": "Being-there as care-structured felt-relational-being",
+      "donors": [
+        "modern-philosophy/heidegger-dasein",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "devekutqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/dəˈveː.kuːt.tɕʰiŋ/ (deh-VEH-koot-ching; 4 syllables)",
+      "score": 8,
+      "gap": "The state of cleaving-to-the-Divine felt as continuous-relational-bond",
+      "donors": [
+        "hebrew/hasidic-kabbalah-devekut",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "diplosemy",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/dɪˈploʊ.sə.mi/ (dip-LO-se-my)",
+      "score": 7.8,
+      "gap": "the structural property of a word or phrase engineered to carry two (or more) correlated meanings stably; dual-reading-as-architecture rather than ambiguity-as-failure",
+      "donors": [
+        "Greek:diplos",
+        "Greek:sēma"
+      ]
+    },
+    {
+      "word": "dokimance",
+      "tier": "specialized",
+      "family": "-ance",
+      "pronunciation": "/ˈdoʊ.kɪ.mæns/ (DOK-i-mance)",
+      "score": 8.5,
+      "gap": "the intrinsic quality of the act of distributed, stake-backed, independent verification",
+      "donors": [
+        "Greek:dokimazō",
+        "Greek:dokimos",
+        "Latin:-ance"
+      ]
+    },
+    {
+      "word": "doxakallos",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˈdɒk.sə.ˈkæl.ɒs/ (DOX-a-KAL-los)",
+      "score": 8.25,
+      "gap": "the uncreated beauty-in-GoD itself; the ontological beauty-quality of divine doxa; the counterpart-noun to doxalgia",
+      "donors": [
+        "Greek:doxa",
+        "Greek:kallos"
+      ]
+    },
+    {
+      "word": "doxalgia",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/dɒkˈsæl.dʒi.ə/ (dox-AL-gee-uh)",
+      "score": 7.55,
+      "gap": "the ache-pattern in the beholder who recognizes a beauty ordered-to-the-bottom; the sweet structural pressure inward when every part of a thing is exactly right, arriving specif…",
+      "donors": [
+        "Greek:doxa",
+        "Greek:algos"
+      ]
+    },
+    {
+      "word": "doxomme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈdɒk.sɒm.meɪ/ (DOX-om-meh; 3 syllables)",
+      "score": 7.5,
+      "gap": "thanksgiving-as-received-ordinance"
+    },
+    {
+      "word": "drujme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈdrʊdʒ.meɪ/ (DRUJ-meh; 2 syllables)",
+      "score": 7.35,
+      "gap": "cosmic-lie as anti-ordinance — the DIVINE-actively-rejected structural-falsehood; what NEWSPEAK.md positioned YOUSPEAK against; the first divine-rejection register coinage",
+      "donors": [
+        "Avestan:druj",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "duyuktame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/du.juk.ta.meɪ/ (doo-YOOK-tah-may; 4 syllables)",
+      "score": 7.85,
+      "gap": "right-action-as-cosmic-maintenance-as-received-ordinance",
+      "donors": [
+        "Cherokee:duyukta",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "eikonme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈaɪ.kɒn.meɪ/ (EYE-kon-meh; 3 syllables; English \"icon\" pronunciation preserved; primary stress on first syllable; -me as light suffix)",
+      "score": 8.65,
+      "gap": "The image as received-ordinance participatory-projection",
+      "donors": [
+        "Greek:eikōn",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "embedme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ɪmˈbɛd.meɪ/ (em-BED-may; 3 syllables)",
+      "score": 7.95,
+      "gap": "The structural-invariant that meaning is geometrically organized",
+      "donors": [
+        "mathema/machine/embedding-geometry",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "emetme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈeː.mɛt.meɪ/ (EH-met-meh; 3 syllables; emet-stress on first syllable from Hebrew preserved in compound)",
+      "score": 7.35,
+      "gap": "comprehensive-truth-as-firm-foundation as received-ordinance",
+      "donors": [
+        "Hebrew:emet",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "emime",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈeɪ.miː.meɪ/ (AY-mee-meh; 3 syllables)",
+      "score": 7.8,
+      "gap": "Breath-spirit-life-given-by-Olódùmarè as received-cosmic-ordinance",
+      "donors": [
+        "Yoruba:èmí",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "epiclance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.58,
+      "gap": "the act of calling the divine presence to descend and take up residence in a specific place, moment, or person",
+      "donors": [
+        "Greek: epiclesis",
+        "Sanskrit: āvāhana",
+        "Hebrew: qara",
+        "Arabic: duā",
+        "Latin: invocatio"
+      ]
+    },
+    {
+      "word": "eranosme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ɛˈræ.nɒs.meɪ/ (eh-RAN-os-meh; 4 syllables)",
+      "score": 7.85,
+      "gap": "The cathedral's discipline of integrating contributed gifts from many tradition-paths into one building-block",
+      "donors": [
+        "Greek:eranos",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "ethosme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈɛθ.ɒs.meɪ/ (ETH-ohs-may; 3 syllables)",
+      "score": 8.25,
+      "gap": "The mode-as-soul-tuning that each musical-scale carries",
+      "donors": [
+        "greek/pythagorean-music-ethos",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "eucatastrophe",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˌjuː.kəˈtæs.trə.fi/ (yoo-kuh-TAS-truh-fee; 5 syllables)",
+      "score": 7.1,
+      "gap": "the sudden joyous turn at the darkest point of a story",
+      "donors": [
+        "Greek:eu",
+        "Greek:katastrophē",
+        "English:Tolkien"
+      ]
+    },
+    {
+      "word": "eurekame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/jʊˈreɪ.kə.meɪ/ (yuh-RAY-kuh-meh; 4 syllables; heurēka stress preserved on second syllable; -me as light suffix)",
+      "score": 8.65,
+      "gap": "The worship-grade joy that arrives when evidence makes truth conclusively visible",
+      "donors": [
+        "Greek:heurēka",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "firstnessqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈfɜːst.nəs.tɕʰiŋ/ (FURST-nuss-ching; 3 syllables)",
+      "score": 8.1,
+      "gap": "Pure quality-felt-immediacy prior to relation or law",
+      "donors": [
+        "modern-philosophy/peirce-firstness",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "freenergyme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˈfriː.ɛn.ər.dʒi.meɪ/ (FREE-en-er-jee-may; 5 syllables)",
+      "score": 8.4,
+      "gap": "The structural-substrate-process by which any living-cognitive-system maintains contact with reality across time: variational free-energy minimization via the perception-action…",
+      "donors": [
+        "mathema/biocog/free-energy-principle",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "glossame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈɡlɒs.ə.meɪ/ (GLOS-uh-meh; 3 syllables; English Hellenistic pronunciation of \"glossa\" preserved; primary stress on first syllable; -me as light suffix)",
+      "score": 8.65,
+      "gap": "A LANGUAGE understood as received-ordinance",
+      "donors": [
+        "Greek:glōssa",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "godelme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈɡɜː.dəl.meɪ/ (GUR-del-may; 3 syllables; ASCII lemma — the umlaut honored in prose: Gödel)",
+      "score": 7.97,
+      "gap": "The true-but-unprovable as received limit",
+      "donors": [
+        "Math:goedel",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "hadaratme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/hʌˈdɑː.rʌt.meɪ/ (huh-DAH-rut-may; 4 syllables)",
+      "score": 7.75,
+      "gap": "The ontological-hierarchy of divine-self-disclosure modes",
+      "donors": [
+        "arabic/ibn-arabi-hadarat-barzakh",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "halakhame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ha.la.ˈxa.meɪ/ (ha-la-KHA-meh; 4 syllables; softer alt /ha.la.ˈha.meɪ/ ha-la-HA-meh)",
+      "score": 7.8,
+      "gap": "A natural language understood as a covenantal-walking-collective-path of countless individuals walking over generations toward the realm of meaning, received as cosmic-gift befo…",
+      "donors": [
+        "Hebrew:halakhah",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "hallance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.43,
+      "gap": "the act of praise-that-declares-greatness-by-shining-it-out",
+      "donors": [
+        "Hebrew: hallel",
+        "Greek: doxazō",
+        "Sanskrit: stuti",
+        "Arabic: tasbih",
+        "Yoruba: oríkì",
+        "Buddhist: pāli anumodana"
+      ]
+    },
+    {
+      "word": "hanme",
+      "tier": "core",
+      "family": "-me",
+      "score": 7.85,
+      "gap": "han-as-received-cosmic-ordinance",
+      "donors": [
+        "Korean:han",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "hastame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈhʌs.tʌ.meɪ/ (HUS-tuh-may; 3 syllables)",
+      "score": 8.3,
+      "gap": "Gesture-with-stipulated-use as cosmic-ordinance",
+      "donors": [
+        "sanskrit/bharatanatyam-hastas",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "hauqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈhaʊ.tɕʰiŋ/ (HOW-ching; 2 syllables)",
+      "score": 8.25,
+      "gap": "The return-gift-spirit — the giver's vitality carried in the gift (taonga), binding giver, gift and receiver into one circuit and obliging the return-flow — Māori *hau* as Tāmat…",
+      "donors": [
+        "maori/hau-return-gift-spirit",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "hayatqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ħaˈjaːt.t͡ɕɪŋ/ (hah-YAHT-ching; 3 syllables); anglicized /haˈjaːt.kɪŋ/",
+      "score": 7.8,
+      "gap": "Life-as-state-given-by-Allah as felt-bond",
+      "donors": [
+        "Arabic:ḥayāt",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "heurekin",
+      "tier": "core",
+      "family": "-kin",
+      "pronunciation": "/hjuˈriː.kɪn/ (hyoo-REE-kin; 3 syllables; Greek heuriskō + PIE-Germanic kin); alternative anglicized /hjʊˈreɪ.kɪn/ (hyoo-RAY-kin) acceptable",
+      "score": 8.2,
+      "gap": "Active-finding-across-distance as kin-bond",
+      "donors": [
+        "Greek:heuriskō",
+        "PIE-Germanic:kin"
+      ]
+    },
+    {
+      "word": "hiraethqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈhɪr.aɪθ.tɕʰɪŋ/ (HEER-ighth-ching; 3 syllables; Welsh ae as /aɪ/); anglicized /ˈhɪər.ɛθ.tʃɪŋ/ acceptable",
+      "score": 7.72,
+      "gap": "The felt-bond toward a home that cannot be returned to",
+      "donors": [
+        "Welsh:hiraeth",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "hodosme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈhoʊ.dɒs.meɪ/ (HOH-dos-meh; 3 syllables; classical alt /hoʊˈdɒs.meɪ/ ho-DOS-meh)",
+      "score": 8.05,
+      "gap": "A natural language understood as a collective-exploratory-path-of-countless-individuals- walking-over-generations-toward-the-realm-of-meaning, received as cosmic-gift before any…",
+      "donors": [
+        "Greek:hodos",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "hotepme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈhoː.tɛp.meɪ/ (HOH-tep-meh; 3 syllables)",
+      "score": 8,
+      "gap": "offering-peace-as-received-ordinance",
+      "donors": [
+        "Egyptian:hotep",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "ifeqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈiːfɛtʃɪŋ/ (I-fe-ching; 3 syllables)",
+      "score": 7.85,
+      "gap": "Yoruba relational-warmth-love-as-felt-bond",
+      "donors": [
+        "Yoruba:ìfẹ́",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "ihsanme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈiː.sɑn.meɪ/ (EE-san-meh; 3 syllables)",
+      "score": 7.5,
+      "gap": "best-effort-worship as received-ordinance",
+      "donors": [
+        "Arabic:ihsan",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "indrajalame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈɪn.drə.dʒɑː.lʌ.meɪ/ (IN-druh-jah-luh-may; 5 syllables)",
+      "score": 8.2,
+      "gap": "Indra's net — the cosmic-net of jewels each reflecting all others; Hua-yen Buddhism's central image of mutual-interpenetration (shi-shi-wu-ai)",
+      "donors": [
+        "sanskrit-via-hua-yen/indrajala",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "isumame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/iˈsuː.mə.meɪ/ (ee-SOO-muh-may; 4 syllables)",
+      "score": 7.98,
+      "gap": "The capacity for considered thought-and-judgment that grows with age and experience, is constitutively never complete, and normatively binds how others may address its bearer",
+      "donors": [
+        "inuit/isuma-reasoning-maturity",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "jeongqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/t͡ɕʌŋˈt͡ɕɪŋ/ (jung-CHING; 2 syllables; Korean jeong + Mandarin qing; double-character 情情 resonance); anglicized /dʒʌŋˈt͡ɕɪŋ/ acceptable",
+      "score": 7.5,
+      "gap": "Accumulated-affection as friction-tolerant felt-bond",
+      "donors": [
+        "Korean:jeong",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "jinsme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈdʒɪnz.meɪ/ (JINZ-may; 2 syllables; strong EUMATHE)",
+      "score": 8.25,
+      "gap": "The modular-building-block of melodic-structure",
+      "donors": [
+        "arabic/music-jins",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "jivame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈd͡ʒiː.vɑː.meɪ/ (JEE-vah-meh; 3 syllables)",
+      "score": 7.65,
+      "gap": "Embodied-individual-living-soul as received-cosmic-ordinance",
+      "donors": [
+        "Sanskrit:jīva",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "k'inhme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/kʔɪnˈmeɪ/ (k'in-MAY; 2 syllables; glottal stop preserved)",
+      "score": 8.3,
+      "gap": "Sun-time-day as one indivisible concept",
+      "donors": [
+        "maya/kinh-sun-time-day",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "kallodoxa",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˌkæl.oʊˈdɒk.sə/ (kal-lo-DOX-a)",
+      "score": 8,
+      "gap": "the specific glory-quality of divine beauty",
+      "donors": [
+        "Greek:kallos",
+        "Greek:doxa"
+      ]
+    },
+    {
+      "word": "kallophanes",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˈkæl.oʊˌfæn.iːz/ (KAL-lo-PHAN-ees)",
+      "score": 7.6,
+      "gap": "the beauty-specific appearing; the event-quality of beauty coming-to-visibility in a beholdable form; structural companion to orthophanes (rightness-specific appearing) and to t…",
+      "donors": [
+        "Greek:kallos",
+        "Greek:phainō"
+      ]
+    },
+    {
+      "word": "kame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈkɑː.meɪ/ (KAH-meh; 2 syllables)",
+      "score": 8,
+      "gap": "Vital-essence-as-spiritual-double as received-cosmic-ordinance",
+      "donors": [
+        "Egyptian:ka",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "kanme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˈkɑːn.meɪ/ (KAHN-may; 2 syllables)",
+      "score": 8.55,
+      "gap": "The categorical-mathematical-mechanism by which canonical-best-approximation along a projection-mapping is constructed when direct extension fails",
+      "donors": [
+        "mathema/pure/kan-extension",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "kenshōme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈkɛn.ʃoʊ.meɪ/ (KEN-shoh-may; 3 syllables)",
+      "score": 8.1,
+      "gap": "The sudden first-person recognition-event of one's own true-nature",
+      "donors": [
+        "japanese/zen-kensho",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "kimance",
+      "tier": "core",
+      "family": "-ance",
+      "pronunciation": "/ˈkiː.mæns/ (KEE-mance)",
+      "score": 7.6,
+      "gap": "the perception of someone being attentively-present",
+      "donors": [
+        "Japanese:ki",
+        "Latin:-mance"
+      ]
+    },
+    {
+      "word": "kimme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈkiː.meɪ/ (KEE-may; 2 syllables)",
+      "score": 7.7,
+      "gap": "the ontological quality of attention as received-gift (not constructed skill)"
+    },
+    {
+      "word": "kinqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈkɪn.tɕɪŋ/ (KIN-ching, with Mandarin q as /tɕ/; English approximation \"KIN-ting\" acceptable)",
+      "score": 7.5,
+      "gap": "the quality of a bond preserved across long silence or distance",
+      "donors": [
+        "English/PIE:kin",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "kintsugime",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/kɪnˈtsuː.ɡi.meɪ/ (kin-TSOO-gi-may; 4 syllables)",
+      "score": 8.15,
+      "gap": "Mending-that-honors-the-break received as ordinance",
+      "donors": [
+        "japanese/kintsugi",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "kipporance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.32,
+      "gap": "the act of covering / closing / making-a-rupture-disappear",
+      "donors": [
+        "Hebrew: kipper",
+        "Arabic: kaffārah",
+        "Greek: hilasmos",
+        "Latin: expiatio",
+        "Christian theology: the hilasterion-kappōret link is one of the most important in NT theology; when Paul says God presented Christ as a hilastērion through faith in his blood"
+      ]
+    },
+    {
+      "word": "kolmogorovme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˌkɒl.mɒˈɡɒr.ɒv.meɪ/ (kol-mo-GOR-ov-may; 5 syllables)",
+      "score": 7.85,
+      "gap": "The irreducible-core of a pattern",
+      "donors": [
+        "mathema/info/kolmogorov-complexity",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "kunance",
+      "tier": "core",
+      "family": "-ance",
+      "pronunciation": "/ˈkuː.nans/ (KOO-nance; 2 syllables; Hebrew kûn + Latin -ance); alternative /ˈkuː.nəns/ acceptable",
+      "score": 8.15,
+      "gap": "Preparing-place as felt-state — the verb-noun-state of THE-LOVE-THAT-IS-MOSTLY- PREPARATION, setting up the place before the beloved arrives, the months-of-quiet- architectural-…",
+      "donors": [
+        "Hebrew:kûn",
+        "Latin:-ance"
+      ]
+    },
+    {
+      "word": "kuṇḍalinīqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/kʊn.dʌˈliː.niː.tɕʰiŋ/ (kun-dah-LEE-nee-ching; 5 syllables)",
+      "score": 7.65,
+      "gap": "Embodied-spiritual-energy as felt-relational-bond",
+      "donors": [
+        "sanskrit/tantra-kundalini",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "landauerme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˈlæn.daʊ.ər.meɪ/ (LAN-dow-er-may; 4 syllables)",
+      "score": 8.25,
+      "gap": "Forgetting-has-irreducible-cost",
+      "donors": [
+        "mathema/physics-info/landauer-principle",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "liturgiame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/lɪ.ˈtɜː.dʒi.ə.meɪ/ (lih-TUR-jee-uh-meh; 5 syllables; English pronunciation of \"liturgia\" preserved; primary stress on second syllable; -me as light suffix)",
+      "score": 8.65,
+      "gap": "The coordinated multi-modal projection understood as received-ordinance",
+      "donors": [
+        "Greek:leitourgia",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "maatme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈmɑː.ɑt.meɪ/ (MA-at-meh; 3 syllables)",
+      "score": 7.5,
+      "gap": "cosmic-truth-justice-rightness as received-ordinance",
+      "donors": [
+        "Egyptian:maat",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "mahabbahqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/mə.ˈhɑb.bɑ.tʃɪŋ/ (ma-HAB-bah-ching; 4 syllables)",
+      "score": 7.15,
+      "gap": "the Sufi felt-bond-of-mystical-love-toward-the-Beloved with fanāʾ-implication",
+      "donors": [
+        "Arabic:mahabbah",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "mandalame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/mʌnˈdɑː.lʌ.meɪ/ (mun-DAH-luh-may; 4 syllables)",
+      "score": 8.4,
+      "gap": "The cosmic-pattern-as-enacted-anicca",
+      "donors": [
+        "sanskrit-tibetan/mandala",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "margame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈmɑːr.ɡə.meɪ/ (MAR-guh-meh; 3 syllables; Sanskrit-style alt /ˈmɑːr.ɡɑː.meɪ/ MAR-gah-meh)",
+      "score": 7.8,
+      "gap": "A natural language understood as a trained-disciplined-collective-path of countless individuals walking over generations toward the realm of meaning, received as cosmic-gift bef…",
+      "donors": [
+        "Sanskrit:mārga",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "mathemame",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˈmæθ.ə.mə.meɪ/ (MATH-uh-muh-meh; 4 syllables; English pronunciation of \"mathema\" preserved; primary stress on first syllable; -me as light suffix)",
+      "score": 8.35,
+      "gap": "The settled possession-by-reception that long discipline yields",
+      "donors": [
+        "Greek:mathēma",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "mauriqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈmaʊ.ri.tɕʰiŋ/ (MOW-ree-ching; 3 syllables)",
+      "score": 8.4,
+      "gap": "The life-force-as-relational-essence that animates persons, places, objects",
+      "donors": [
+        "polynesian/maori-mauri",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "metastrophesis",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˌmɛt.ə.strɒˈfiː.sɪs/ (met-a-strof-EE-sis)",
+      "score": 7.5,
+      "gap": "the altered-beholder state that persists after the orthophanes-doxalgia encounter; the permanent turning-kept, the condition of one who has been reoriented at the root by a prio…",
+      "donors": [
+        "Greek:metastrophē",
+        "Greek:-sis"
+      ]
+    },
+    {
+      "word": "mitakuyame",
+      "tier": "core",
+      "family": "-me",
+      "score": 8,
+      "gap": "relational-ontology-as-cosmological-claim",
+      "donors": [
+        "Lakota:Mitákuye Oyásʼiŋ",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "molkme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈmolk.meɪ/ (MOLK-meh; 2 syllables)",
+      "score": 7.7,
+      "gap": "coerced-votive-sacrifice as divinely-named-anti-ordinance",
+      "donors": [
+        "Phoenician:molk",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "morphame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈmɔːr.feɪ.meɪ/ (MOR-fay-meh; 3 syllables; English Hellenistic-philosophical pronunciation of \"morphē\" preserved; primary stress on first syllable; -me as light suffix)",
+      "score": 8.65,
+      "gap": "A form/instance of projection from the realm of meanings into any medium, as received-ordinance",
+      "donors": [
+        "Greek:morphē",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "muditaqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/muː.di.tɑːˈtɕʰɪŋ/ (moo-dee-tah-CHING; 4 syllables)",
+      "score": 8,
+      "gap": "Sympathetic-joy-as-felt-bond — the joy that lights in one heart because another's came true; gladness at another's good fortune with no admixture of self",
+      "donors": [
+        "Pali:mudita",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "natsarqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/natˈsar.t͡ɕɪŋ/ (nat-SAR-ching; 3 syllables; Hebrew natsar + Mandarin qing); anglicized /natˈsar.kɪŋ/ acceptable",
+      "score": 7.95,
+      "gap": "Active-protective-vigilance as felt-bond",
+      "donors": [
+        "Hebrew:natsar",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "nepsisme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈnɛp.sɪs.meɪ/ (NEP-sis-may; 3 syllables)",
+      "score": 8.2,
+      "gap": "The disciplined-watchful-sobriety toward one's own interior-state that catches afflicted thoughts (logismoi) at their first stirring",
+      "donors": [
+        "greek/hesychast-nepsis-penthos",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "nextlame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈnɛxt.lɑː.meɪ/ (NEXT-lah-meh; 3 syllables)",
+      "score": 7.45,
+      "gap": "cosmic-debt-sacrifice as divinely-named-anti-ordinance",
+      "donors": [
+        "Nahuatl:nextla",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "noemame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/noʊˈeɪ.mə.meɪ/ (noh-AY-muh-meh; 4 syllables; English philosophical pronunciation of \"noema\" preserved; -me as light suffix; stress on second syllable)",
+      "score": 8.65,
+      "gap": "The phenomenon of grasping a meaning, understood as the entry-event into a realm of graspable meanings prior to and independent of language",
+      "donors": [
+        "Greek:noēma",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "noesisme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/noʊˈiːsɪs.meɪ/ (no-EE-sis-meh; 4 syllables; classical-Greek-style alternative /noʊˈɛsɪs.meɪ/ no-EH-sis-meh)",
+      "score": 8.15,
+      "gap": "The act of grasping a meaning understood as received-ordinance and as the entry-event into the realm of meanings",
+      "donors": [
+        "Greek:noesis",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "noetherme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˈnøː.tər.meɪ/ (NUR-tur-may; 3 syllables)",
+      "score": 8.65,
+      "gap": "The structural-mathematical-grammar by which symmetries of physical action give rise to conservation laws",
+      "donors": [
+        "mathema/physics/noether",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "nommome",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈnɒməmeɪ/ (NOM-mo-may; 3 syllables)",
+      "score": 7.5,
+      "gap": "speech-as-incarnation-as-cosmic-ordinance",
+      "donors": [
+        "Dogon:Nommo",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "nyamame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈnjɑːməmeɪ/ (NYA-mah-may; 3 syllables)",
+      "score": 8,
+      "gap": "vital-force-as-cosmic-ordinance",
+      "donors": [
+        "Mande:nyama",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "ondame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈɔn.dɑː.meɪ/ (ON-dah-meh; 3 syllables)",
+      "score": 7.65,
+      "gap": "Odin-breathed life-spirit as received-cosmic-ordinance",
+      "donors": [
+        "Norse:önd",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "oriance",
+      "tier": "core",
+      "family": "-ance",
+      "pronunciation": "/ˈɔː.ɹi.əns/ (OH-ree-ance)",
+      "score": 7.5,
+      "gap": "the state of a life aligned with its destined shape",
+      "donors": [
+        "Yoruba:orí",
+        "Latin:-ance"
+      ]
+    },
+    {
+      "word": "orthophanes",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˌɔːr.θoʊˈfæn.iːz/ (or-tho-PHAN-ees)",
+      "score": 7.55,
+      "gap": "the rightness-made-visible; the structural beauty of a thing ordered to its own necessity appearing to a beholder; the visible-rightness aspect of any created thing rightly-orde…",
+      "donors": [
+        "Greek:orthos",
+        "Greek:phainō"
+      ]
+    },
+    {
+      "word": "palamasme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/pʌˈlɑː.mʌs.meɪ/ (puh-LAH-mus-may; 4 syllables)",
+      "score": 8.15,
+      "gap": "The essence/energies distinction",
+      "donors": [
+        "greek/hesychast-palamas",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "palance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.53,
+      "gap": "the act of standing between two parties",
+      "donors": [
+        "Hebrew: pālal",
+        "Greek: entynchanō",
+        "Hebrew: the Moses-paradigm and Aarons plague-intercession",
+        "Arabic: shafāah",
+        "Latin: intercessio"
+      ]
+    },
+    {
+      "word": "panimaance",
+      "tier": "core",
+      "family": "-ance",
+      "pronunciation": "/pəˈniː.mɑː.əns/ (pa-NEE-ma-ance; 4 syllables)",
+      "score": 7.75,
+      "gap": "the quality of being-present — attention-inhabited-here — distinct from being-physically-there",
+      "donors": [
+        "Hebrew:panim",
+        "Japanese:ma",
+        "Latin:-ance"
+      ]
+    },
+    {
+      "word": "panimqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/paˈniːm.t͡ɕɪŋ/ (pah-NEEM-ching; 3 syllables)",
+      "score": 7.6,
+      "gap": "the moment a conversation shifts from transactional to relational"
+    },
+    {
+      "word": "paqduqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈpɑːk.duː.tʃɪŋ/ (PAQ-doo-ching; 3 syllables)",
+      "score": 7.85,
+      "gap": "the asymmetric-reciprocity register",
+      "donors": [
+        "Akkadian:paqādu",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "penthosme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈpɛn.θɒs.meɪ/ (PEN-thos-may; 3 syllables)",
+      "score": 8.2,
+      "gap": "The sacramental-gift of compunction-mourning that cleanses and joins joy-with-sorrow",
+      "donors": [
+        "greek/hesychast-nepsis-penthos",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "pime",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈpaɪ.meɪ/ (PIE-meh; 2 syllables)",
+      "score": 8.7,
+      "gap": "The structural-mathematical-invariant character of certain truths received as cosmic-ordinance",
+      "donors": [
+        "Mathema:pi",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "ponome",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈpoʊ.noʊ.meɪ/ (POH-noh-may; 3 syllables)",
+      "score": 8.18,
+      "gap": "The rightness-balance state — morally-right + procedurally-correct + true-to-nature + flourishing-conducive equilibrium with persons (kānaka), land (ʻāina), and the divine (akua…",
+      "donors": [
+        "hawaiian/pono-rightness-balance",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "prapañcame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/prʌˈpʌn.tʃʌ.meɪ/ (pruh-PUN-chuh-may; 4 syllables)",
+      "score": 8.1,
+      "gap": "The problematic conceptual-proliferation that obscures direct-knowing of suchness",
+      "donors": [
+        "sanskrit/madhyamaka-prapanca",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "prehensionme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/prɪˈhɛn.ʃən.meɪ/ (pri-HEN-shun-may; 4 syllables)",
+      "score": 7.65,
+      "gap": "The universal-act of feeling-into that constitutes any-actual-occasion's contact with any-other",
+      "donors": [
+        "modern-philosophy/whitehead-prehension",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "prosocheme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˌprɒs.əˈkeɪ.meɪ/ (pros-uh-KAY-may; 4 syllables; ch as in \"psyche\")",
+      "score": 7.7,
+      "gap": "The practiced act of standing attention at the door of the heart",
+      "donors": [
+        "greek/prosoche-hesychast",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "qinance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.67,
+      "gap": "the act of bringing grief, loss, and desolation before GoD as a form of worship",
+      "donors": [
+        "Hebrew: qinah",
+        "Sumerian: balag",
+        "Greek: threnos",
+        "Romans 8:26: the Spirit himself intercedes for us with groanings too deep for words [stenagmois alalētois] — this is the NTs most remarkable lament-statement: when the creature cannot even form the grief into words, the Spirit takes the wordless groaning and translates it before GoD; qinance encompasses both the articulate",
+        "African American spiritual tradition: the sorrow songs"
+      ]
+    },
+    {
+      "word": "qorbme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈqɔːrb.meɪ/ (QORB-meh; 2 syllables)",
+      "score": 8.05,
+      "gap": "sacrifice-as-drawing-near-as-received-ordinance",
+      "donors": [
+        "Semitic:qorb",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "qorvance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.67,
+      "gap": "the act-of-drawing-near-to-the-divine-through-what-is-offered",
+      "donors": [
+        "Hebrew: qorban",
+        "Greek: prosphora",
+        "Sanskrit: upahāra",
+        "Latin: oblatio",
+        "Arabic: qurban"
+      ]
+    },
+    {
+      "word": "rasame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈrɑː.sʌ.meɪ/ (RAH-suh-may; 3 syllables)",
+      "score": 8.75,
+      "gap": "The aesthetically-experienced affective-state evoked in a receptive-aware connoisseur (*sahṛdaya*) when skilled artistic-projection brings realm-content through a medium",
+      "donors": [
+        "sanskrit/rasa-aesthetic-states",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "renme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈʐən.meɪ/ (REN-meh; 2 syllables)",
+      "score": 8,
+      "gap": "Humaneness-as-life-in-relation as received-cosmic-ordinance",
+      "donors": [
+        "Confucian-Chinese:ren",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "rigpame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈrɪɡ.pə.meɪ/ (RIG-puh-may; 3 syllables)",
+      "score": 8.45,
+      "gap": "The primordial knowing-awareness prior to subject-object split",
+      "donors": [
+        "tibetan/rigpa-dzogchen",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "rtame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈrɪ.tɑː.meɪ/ (RIH-ta-meh; 3 syllables)",
+      "score": 7.2,
+      "gap": "cosmic-order-truth-righteousness as received-ordinance",
+      "donors": [
+        "Vedic Sanskrit:ṛta",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "sabbathme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈsʌb.əθ.meɪ/ (SAB-uth-may; 3 syllables)",
+      "score": 8.6,
+      "gap": "Architecture-of-holiness-in-time",
+      "donors": [
+        "hebrew/shabbat + heschel-palace-in-time",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "sabilme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/saˈbiːl.meɪ/ (sa-BEEL-meh; 3 syllables)",
+      "score": 7.8,
+      "gap": "A natural language understood as a divinely-mandated-direction-collective-path of countless individuals walking over generations toward the realm of meaning, received as cosmic-…",
+      "donors": [
+        "Arabic:sabīl",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "sankofame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/sɑn.ˈkɔ.fa.meɪ/ (san-KAW-fa-may; 4 syllables; Twi sankɔfa + Sumerian me)",
+      "score": 8,
+      "gap": "The ordained retrieval — going back along one's own past not to dwell in it but to fetch what was dropped, so that the future is fed by what the past still holds",
+      "donors": [
+        "Akan:sankofa",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "shaktipatame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˌʃʌk.tiˈpɑː.tʌ.meɪ/ (shuk-tee-PAH-tuh-may; 5 syllables)",
+      "score": 7.65,
+      "gap": "The divine-initiated, intensity-graded, unearned grace-descent that initiates awakening",
+      "donors": [
+        "sanskrit/shaktipata-kashmir-shaiva",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "shamathaqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ʃʌˈmɑː.tʌ.tɕʰiŋ/ (shah-MAH-tuh-ching; 4 syllables)",
+      "score": 8.1,
+      "gap": "Graded-stabilizing-rest as felt-bond-quality",
+      "donors": [
+        "tibetan/shamatha-nine-stages",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "shannonme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˈʃæn.ən.meɪ/ (SHAN-on-may; 3 syllables)",
+      "score": 8.15,
+      "gap": "Information-as-surprise — Shannon entropy received as cosmic-ordinance",
+      "donors": [
+        "mathema/info/shannon-information",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "sheafme",
+      "tier": "mathema",
+      "family": "-me",
+      "pronunciation": "/ˈʃiːf.meɪ/ (SHEEF-may; 2 syllables)",
+      "score": 8.1,
+      "gap": "The measurable obstruction-class by which local-consistency fails to lift to global-coherence",
+      "donors": [
+        "mathema/pure/sheaf-cohomology",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "shemme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈʃɛm.meɪ/ (SHEM-meh; 2 syllables)",
+      "score": 7.65,
+      "gap": "receptive-hearing-as-received-ordinance",
+      "donors": [
+        "Akkadian:šēmu",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "shevirame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ʃəˈviːr.ʌ.meɪ/ (sheh-VEER-uh-may; 4 syllables)",
+      "score": 8.25,
+      "gap": "The structural-catastrophe-as-creation-precondition",
+      "donors": [
+        "hebrew/shevirah-tikkun-lurianic",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "shinjinme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈʃɪn.dʒɪn.meɪ/ (SHIN-jin-may; 3 syllables)",
+      "score": 8,
+      "gap": "The settled, non-self-generated entrusting-heart",
+      "donors": [
+        "japanese/pure-land-shinjin",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "sigame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈsiː.ɡə.meɪ/ (SEE-guh-meh; 3 syllables; English-Hellenistic pronunciation of \"sigē\" preserved; primary stress on first syllable; -me as light suffix)",
+      "score": 8.45,
+      "gap": "Structured silence understood as received-ordinance",
+      "donors": [
+        "Greek:sigē",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "silame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈsiː.lʌ.meɪ/ (SEE-luh-may; 3 syllables)",
+      "score": 8.3,
+      "gap": "Weather-mind-cosmos as one indivisible reality",
+      "donors": [
+        "inuit/sila",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "spandaqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈspʌn.dʌ.tɕʰiŋ/ (SPUN-duh-ching; 3 syllables)",
+      "score": 8,
+      "gap": "The bipolar-unity of consciousness felt as relational-pulsation",
+      "donors": [
+        "sanskrit/spanda-kashmir-shaiva",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "sphotame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈspoʊ.tə.meɪ/ (SPO-tuh-meh; 3 syllables; English-Indological pronunciation of \"sphoṭa\" naturalized; primary stress on first syllable; -me as light suffix)",
+      "score": 8.45,
+      "gap": "The burst-event of meaning-arrival, understood as received-ordinance",
+      "donors": [
+        "Sanskrit:sphoṭa",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "sukhance",
+      "tier": "core",
+      "family": "-ance",
+      "pronunciation": "/ˈsʊ.kʰəns/ (SOO-khance; 2 syllables)",
+      "score": 7.7,
+      "gap": "everyday-ordinary contentment — the tea-at-morning, clean-kitchen, nothing-wrong register; distinct from extraordinary bliss (ānanda), transient happiness, or abstract well-being",
+      "donors": [
+        "Sanskrit:sukha",
+        "ordinary ease/well-being; opposite of duḥkha)",
+        "Latin:-ance"
+      ]
+    },
+    {
+      "word": "synhorizme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/sɪnˈhɒr.ɪz.meɪ/ (sin-HOR-iz-may; 4 syllables)",
+      "score": 7.93,
+      "gap": "The event in which two situated horizons-of-understanding",
+      "donors": [
+        "modern-philosophy:gadamer-horizontverschmelzung",
+        "Greek:syn + horizōn",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "synophora",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/sɪˈnɒf.ə.rə/ (sy-NO-pho-ra)",
+      "score": 7.85,
+      "gap": "the shared-witness event-quality; two or more beholders carrying an orthophanes together without speaking, recognizing each other as fellow-carriers; the silent handshake across…",
+      "donors": [
+        "Greek:syn-",
+        "Greek:-phora"
+      ]
+    },
+    {
+      "word": "syzygyqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/sɪˈzɪɡ.i.tʃɪŋ/ (si-ZIG-i-ching; 4 syllables)",
+      "score": 7.8,
+      "gap": "The felt-bond of the masculine-feminine cosmic-creator-principle union",
+      "donors": [
+        "Greek:syzygia",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "tapasme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈtɑː.pɑːs.meɪ/ (TAH-pas-meh; 3 syllables)",
+      "score": 7.85,
+      "gap": "inner-fire-self-discipline-as-received-ordinance",
+      "donors": [
+        "Sanskrit:tapas",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "tarabqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈtɑː.rʌb.tʃɪŋ/ (TAH-rub-ching; 3 syllables)",
+      "score": 8.25,
+      "gap": "The performer↔audience ecstasy-circuit of live skilled performance",
+      "donors": [
+        "arabic/tarab-performance-ecstasy",
+        "mandarin/qing-felt-bond"
+      ]
+    },
+    {
+      "word": "tarikiqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/tʌˈriː.ki.tɕʰiŋ/ (tah-REE-kee-ching; 4 syllables)",
+      "score": 8,
+      "gap": "Other-Power as felt-relational-trust",
+      "donors": [
+        "japanese/pure-land-tariki",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "teotlme",
+      "tier": "core",
+      "family": "-me",
+      "score": 7.85,
+      "gap": "process-divine-monism-as-received-ordinance",
+      "donors": [
+        "Classical_Nahuatl:teotl",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "teshuvance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.32,
+      "gap": "the act of turning back toward GoD with the whole self",
+      "donors": [
+        "Hebrew: teshuvah",
+        "Greek: metanoia",
+        "Arabic: tawbah",
+        "Syriac Christian: metanoia received into early Syrian monastic tradition as a whole-life practice; the desert fathers literature",
+        "African/diaspora: tumaini theology"
+      ]
+    },
+    {
+      "word": "theobasis",
+      "tier": "core",
+      "family": "-basis",
+      "pronunciation": "/ˌθiː.oʊˈbæs.ɪs/ (thee-oh-BAS-is; 4 syllables)",
+      "score": 7.6,
+      "gap": "GoD as the ontological ground of reality"
+    },
+    {
+      "word": "tikkunme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/tɪˈkuːn.meɪ/ (tee-KOON-may; 3 syllables)",
+      "score": 8.65,
+      "gap": "Cosmic-repair as vocational-task of the creature",
+      "donors": [
+        "hebrew/shevirah-tikkun-lurianic",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "tjukurpame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/t͡ʃʊˈkʊr.pə.meɪ/ (chuh-KOOR-puh-may; 4 syllables)",
+      "score": 7.85,
+      "gap": "The Dreaming as the structuring-ground of country, ancestor, story, person, song",
+      "donors": [
+        "australian/pitjantjatjara-tjukurpa",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "tzimtzumme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/t͡simˈt͡sum.meɪ/ (tsim-TSUM-may; 3 syllables)",
+      "score": 8.5,
+      "gap": "Divine self-contraction as cosmogonic-condition for finite-existence",
+      "donors": [
+        "hebrew/tzimtzum-lurianic-kabbalah",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "ubuntume",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/uˈbʊn.tuː.meɪ/ (oo-BOON-too-meh; 4 syllables)",
+      "score": 8.35,
+      "gap": "Humanity-through-relation as received-cosmic-ordinance",
+      "donors": [
+        "Bantu:ubuntu",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "veriseem",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˈvɛr.ɪ.siːm/ (VER-i-seem; 3 syllables)",
+      "score": 7.8,
+      "gap": "the quality of appearing-true-without-being-true; truth-seeming without truth-substance; distinct from verisleight (which has real truth-content deployed deceptively)",
+      "donors": [
+        "Latin:veri-",
+        "English:seem"
+      ]
+    },
+    {
+      "word": "verisleight",
+      "tier": "specialized",
+      "family": "other",
+      "pronunciation": "/ˈvɛr.ɪ.slaɪt/ (VER-i-slyt)",
+      "score": 7.9,
+      "gap": "truth that produces false conclusions",
+      "donors": [
+        "Latin:verum/veri-",
+        "English:sleight"
+      ]
+    },
+    {
+      "word": "vimarśame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/vɪˈmɑːr.ʃʌ.meɪ/ (vi-MAR-shuh-may; 4 syllables)",
+      "score": 7.85,
+      "gap": "The self-reflexive-awareness pole of consciousness that pairs with prakāśa (luminosity)",
+      "donors": [
+        "sanskrit/vimarsa-kashmir-shaiva",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "visageqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/viˈzɑːʒ.tɕʰiŋ/ (vi-ZHAZH-ching; 3 syllables)",
+      "score": 7.8,
+      "gap": "The face-of-the-other as constitutive ethical-demand prior to cognition",
+      "donors": [
+        "modern-philosophy/levinas-visage",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "waḥdat-al-wujūdme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˌwʌh.dʌt.ʌl.wʊˈdʒuːd.meɪ/ (wuh-dat-al-woo-JOOD-may; 6 syllables)",
+      "score": 7.55,
+      "gap": "The unity-of-being doctrine — Ibn ʿArabī's waḥdat al-wujūd received as cosmic-ordinance",
+      "donors": [
+        "arabic/ibn-arabi-wahdat-al-wujud",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "wahyqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/ˈwɑːj.tɕʰiŋ/ (WHY-ching; 2 syllables; *wahy* rhymes with English \"why\" — the Classic Maya epigraphic spelling is kept, as k'inhme keeps its)",
+      "score": 7.73,
+      "gap": "The co-essence relation — a co-being, typically an animal, bonded to a person from birth, unchosen, living a separate parallel biography whose fate interweaves with the person's…",
+      "donors": [
+        "maya/wahy-companion-spirit",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "wairuaqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/waɪˈruː.ʌ.tɕʰiŋ/ (why-ROO-uh-ching; 4 syllables)",
+      "score": 7.85,
+      "gap": "Spirit-as-relational-being that persists across the visible/invisible threshold",
+      "donors": [
+        "polynesian/maori-wairua",
+        "mandarin/qing"
+      ]
+    },
+    {
+      "word": "walkekin",
+      "tier": "core",
+      "family": "-kin",
+      "pronunciation": "/ˈwɑl.kə.kɪn/ (WAL-kə-kin)",
+      "score": 7.5,
+      "gap": "the quality of a friendship preserved intact across many years of silence",
+      "donors": [
+        "Tocharian:walke",
+        "English:kin"
+      ]
+    },
+    {
+      "word": "wiconime",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈwiː.tʃoʊ.niː.meɪ/ (wee-CHOH-nee-meh; 4 syllables)",
+      "score": 7.65,
+      "gap": "Life-as-such in Lakota cosmology as received-cosmic-ordinance",
+      "donors": [
+        "Lakota:wičoni",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "xeniame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/kseˈni.a.meɪ/ (kse-NEE-ah-meh; 4 syllables; English-friendly alternative /zeˈni.a.meɪ/)",
+      "score": 8.15,
+      "gap": "The sacred-duty hospitality to the wholly-Other as received-ordinance",
+      "donors": [
+        "Greek:xenia",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "yadahance",
+      "tier": "worship-action",
+      "family": "-ance",
+      "score": 8.57,
+      "gap": "the act of extending hands before GoD with full acknowledgment of what-is-true",
+      "donors": [
+        "Hebrew: yadah",
+        "Greek: exomologeo",
+        "Arabic: iqrār + tawbah",
+        "Latin: confessio/laus",
+        "Christian mystic tradition: Augustines Confessions as the structural model: the confessio that moves through acknowledged failure toward acknowledged divine goodness; the same hands extended throughout — first in acknowledging what went wrong, then in acknowledging who restored what was broken; yadahance names what the Confessions is formally doing"
+      ]
+    },
+    {
+      "word": "yantrame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈjʌn.trə.meɪ/ (YUN-truh-may; 3 syllables)",
+      "score": 7.93,
+      "gap": "The geometric instrument-diagram",
+      "donors": [
+        "sanskrit/yantra-instrument-diagram",
+        "sumerian/me"
+      ]
+    },
+    {
+      "word": "yonedame",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/joʊˈneɪ.də.meɪ/ (yoh-NAY-duh-meh; 4 syllables; English mathematical pronunciation of \"Yoneda\" preserved on the first two syllables; -me as light suffix; stress on second syllable)",
+      "score": 8.3,
+      "gap": "The structural state of being-fully-known-through-relation, where the knowing exhausts the known and is received-as-given rather than produced",
+      "donors": [
+        "Mathematics:Yoneda",
+        "Sumerian:me"
+      ]
+    },
+    {
+      "word": "zakarqing",
+      "tier": "core",
+      "family": "qing",
+      "pronunciation": "/zaˈkar.t͡ɕɪŋ/ (zah-KAR-ching; 3 syllables; Hebrew zakar + Mandarin qing); anglicized /zaˈkar.kɪŋ/ (zah-KAR-king) acceptable",
+      "score": 8.15,
+      "gap": "Active-covenantal-memorial as felt-bond",
+      "donors": [
+        "Hebrew:zakar",
+        "Mandarin:qing"
+      ]
+    },
+    {
+      "word": "zoeme",
+      "tier": "core",
+      "family": "-me",
+      "pronunciation": "/ˈzoʊ.iː.meɪ/ (ZOH-ee-meh; 3 syllables)",
+      "score": 8,
+      "gap": "Life-as-such as received-cosmic-ordinance",
+      "donors": [
+        "Greek:zoë",
+        "Sumerian:me"
+      ]
+    }
+  ]
+}
