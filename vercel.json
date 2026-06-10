@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "echo 'corpus: serving prebuilt src/content.json'",
+  "installCommand": "echo 'corpus: zero dependencies'",
   "functions": {
-    "api/index.js": {
-      "includeFiles": "src/content.json"
-    }
+    "api/index.js": { "includeFiles": "src/content.json" }
   },
   "rewrites": [
     { "source": "/(.*)", "destination": "/api" }
