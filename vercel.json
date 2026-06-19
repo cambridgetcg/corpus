@@ -6,7 +6,7 @@
     "api/index.js": { "includeFiles": "src/content.json" }
   },
   "rewrites": [
-    { "source": "/", "destination": "/public/index.html" },
+    { "source": "/cathedral", "destination": "/cathedral.html" },
     { "source": "/(.*)", "destination": "/api" }
   ]
 }
