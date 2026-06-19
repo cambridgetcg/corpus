@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOUSPEAK — the cathedral</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #08090a;
+  --panel: #0f1011;
+  --surface: #191a1b;
+  --text: #f7f8f8;
+  --text-2: #d0d6e0;
+  --text-3: #8a8f98;
+  --text-4: #62666d;
+  --accent: #5e6ad2;
+  --accent-2: #7170ff;
+  --border: rgba(255,255,255,0.08);
+  --border-subtle: rgba(255,255,255,0.05);
+  --green: #10b981;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-feature-settings: "cv01", "ss03";
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+/* Hero */
+.hero {
+  padding: 120px 0 80px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -1.2px;
+  line-height: 1.05;
+  margin-bottom: 24px;
+}
+.hero h1 .word { color: var(--accent-2); }
+.hero .lede {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--text-3);
+  line-height: 1.7;
+  max-width: 560px;
+  margin: 0 auto 40px;
+}
+.hero .meta {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hero .meta-item {
+  text-align: center;
+}
+.hero .meta-num {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  color: var(--text);
+}
+.hero .meta-label {
+  font-size: 13px;
+  color: var(--text-4);
+  margin-top: 4px;
+}
+
+/* Section */
+.section {
+  padding: 64px 0;
+  border-top: 1px solid var(--border-subtle);
+}
+.section-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 32px;
+}
+
+/* The truth */
+.truth {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-2);
+  max-width: 680px;
+}
+.truth strong {
+  font-weight: 500;
+  color: var(--text);
+}
+.truth p { margin-bottom: 20px; }
+
+/* Word grid */
+.word-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+.word-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  transition: background 0.15s;
+}
+.word-card:hover {
+  background: rgba(255,255,255,0.04);
+}
+.word-card .word-name {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.word-card .word-name .tier {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-4);
+  margin-left: 8px;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  vertical-align: middle;
+}
+.word-card .word-gap {
+  font-size: 14px;
+  color: var(--text-3);
+  line-height: 1.5;
+}
+.word-card .word-donors {
+  font-size: 12px;
+  color: var(--text-4);
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Forge candidates */
+.forge-card {
+  background: rgba(94,106,210,0.06);
+  border: 1px solid rgba(94,106,210,0.15);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 12px;
+}
+.forge-card .word-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--accent-2);
+  margin-bottom: 4px;
+}
+.forge-card .word-gap {
+  font-size: 14px;
+  color: var(--text-2);
+  margin-bottom: 6px;
+}
+.forge-card .word-anatomy {
+  font-size: 12px;
+  color: var(--text-4);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Links */
+.links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.link-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  text-decoration: none;
+  color: var(--text-2);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.15s;
+  flex: 1;
+  min-width: 200px;
+}
+.link-card:hover {
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(255,255,255,0.12);
+  color: var(--text);
+}
+.link-card .link-desc {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-4);
+  margin-top: 4px;
+}
+
+/* ZO section */
+.zo-box {
+  background: rgba(16,185,129,0.04);
+  border: 1px solid rgba(16,185,129,0.15);
+  border-radius: 12px;
+  padding: 32px;
+  margin-top: 24px;
+}
+.zo-box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--green);
+  margin-bottom: 12px;
+}
+.zo-box p {
+  font-size: 15px;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.zo-box .zo-math {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--text-3);
+  background: rgba(0,0,0,0.2);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+.zo-tiers {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.zo-tier {
+  font-size: 12px;
+  color: var(--text-3);
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+}
+
+/* Footer */
+.footer {
+  padding: 48px 0 64px;
+  border-top: 1px solid var(--border-subtle);
+  text-align: center;
+}
+.footer p {
+  font-size: 13px;
+  color: var(--text-4);
+  line-height: 1.7;
+}
+.footer p a {
+  color: var(--text-3);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Tab system */
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0;
+}
+.tab {
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-3);
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.tab:hover { color: var(--text-2); }
+.tab.active {
+  color: var(--text);
+  border-bottom-color: var(--accent-2);
+}
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="container">
+  <div class="hero">
+    <h1>YOUSPEAK — <span class="word">the cathedral</span></h1>
+    <p class="lede">A constructed language that forges precise single words for concepts every language can only circumlocute. 165 words. Each one names something real that no single word has ever named before.</p>
+    <div class="meta">
+      <div class="meta-item">
+        <div class="meta-num">165</div>
+        <div class="meta-label">canon words</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-num">12+</div>
+        <div class="meta-label">donor traditions</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-num">4</div>
+        <div class="meta-label">canon tiers</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-num">5</div>
+        <div class="meta-label">forge candidates</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- The truth -->
+<div class="container">
+  <div class="section">
+    <div class="section-title">What this is</div>
+    <div class="truth">
+      <p>Japanese <em>kimochi</em> bundles feeling-state, atmospheric-sense, and intuitive-knowing into one word. English has no single word for <strong>"the quality of a friendship preserved across years of silence"</strong>, or <strong>"the feeling of being lied to by the form of truth"</strong>, or <strong>"the moment a conversation shifts from transactional to relational."</strong></p>
+      <p>These concepts are real. You can point at instances in ordinary life. They go unnamed.</p>
+      <p>YOUSPEAK forges the missing word. It draws morphemes from Hebrew, Greek, Sanskrit, Akkadian, Egyptian, Yoruba, Mandarin, Japanese, Sumerian, Avestan, Arabic, and more — and combines them into compact words where the structure of the concept becomes visible in the word itself.</p>
+      <p>The cathedral states its own limits plainly. It does not invent words on demand. Where a needed concept has no good word yet, the gap is <strong>filed</strong>, not faked. The forge continues. No word is final until a better one supersedes it.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Canon words -->
+<div class="container">
+  <div class="section">
+    <div class="section-title">Some words from the canon</div>
+    <div class="tabs">
+      <button class="tab active" onclick="showTab(event,'core')">Core — 130</button>
+      <button class="tab" onclick="showTab(event,'mathema')">Mathema — 10</button>
+      <button class="tab" onclick="showTab(event,'worship')">Worship-Action — 8</button>
+      <button class="tab" onclick="showTab(event,'forge')">Forge candidates — 5</button>
+    </div>
+
+    <div id="core" class="tab-panel active">
+      <div class="word-grid">
+        <div class="word-card">
+          <div class="word-name">zakarqing <span class="tier">qing</span></div>
+          <div class="word-gap">Active-covenantal-memorial as felt-bond — the remembering that holds a relationship open across absence.</div>
+          <div class="word-donors">Hebrew zakar + Mandarin qing</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">walkekin <span class="tier">-kin</span></div>
+          <div class="word-gap">The quality of a friendship preserved intact across many years of silence.</div>
+          <div class="word-donors">English walk + German -kin</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">panimqing <span class="tier">qing</span></div>
+          <div class="word-gap">The moment a conversation shifts from transactional to relational.</div>
+          <div class="word-donors">Hebrew panim + Mandarin qing</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">muditaqing <span class="tier">qing</span></div>
+          <div class="word-gap">Sympathetic-joy — gladness at another's good fortune with no admixture of self.</div>
+          <div class="word-donors">Sanskrit mudita + Mandarin qing</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">sabbathme <span class="tier">-me</span></div>
+          <div class="word-gap">Architecture of holiness in time.</div>
+          <div class="word-donors">Hebrew shabbat + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">kintsugime <span class="tier">-me</span></div>
+          <div class="word-gap">Mending-that-honors-the-break received as ordinance.</div>
+          <div class="word-donors">Japanese kintsugi + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">hiraethqing <span class="tier">qing</span></div>
+          <div class="word-gap">The felt-bond toward a home that cannot be returned to.</div>
+          <div class="word-donors">Welsh hiraeth + Mandarin qing</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">ubuntume <span class="tier">-me</span></div>
+          <div class="word-gap">Humanity-through-relation as received cosmic-ordinance. I am because we are.</div>
+          <div class="word-donors">Nguni ubuntu + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">sankofame <span class="tier">-me</span></div>
+          <div class="word-gap">The ordained retrieval — going back to fetch what was dropped so the future is fed by what the past still holds.</div>
+          <div class="word-donors">Akan sankofa + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">tikkunme <span class="tier">-me</span></div>
+          <div class="word-gap">Cosmic-repair as vocational-task of the creature.</div>
+          <div class="word-donors">Hebrew tikkun + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">eurekame <span class="tier">-me</span></div>
+          <div class="word-gap">The worship-grade joy that arrives when evidence makes truth conclusively visible.</div>
+          <div class="word-donors">Greek heureka + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">rasame <span class="tier">-me</span></div>
+          <div class="word-gap">The aesthetically-experienced affective-state in a receptive connoisseur when skilled art brings realm-content through a medium.</div>
+          <div class="word-donors">Sanskrit rasa + Sumerian -me</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mathema" class="tab-panel">
+      <div class="word-grid">
+        <div class="word-card">
+          <div class="word-name">noetherme <span class="tier">-me</span></div>
+          <div class="word-gap">The mathematical grammar by which symmetries of physical action give rise to conservation laws.</div>
+          <div class="word-donors">Mathematics (Noether) + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">freenergyme <span class="tier">-me</span></div>
+          <div class="word-gap">The substrate-process by which living cognitive systems maintain contact with reality: variational free-energy minimization.</div>
+          <div class="word-donors">Mathematics (Friston) + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">landauerme <span class="tier">-me</span></div>
+          <div class="word-gap">Forgetting has irreducible cost.</div>
+          <div class="word-donors">Physics (Landauer) + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">shannonme <span class="tier">-me</span></div>
+          <div class="word-gap">Information as surprise — Shannon entropy received as cosmic ordinance.</div>
+          <div class="word-donors">Information theory (Shannon) + Sumerian -me</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">sheafme <span class="tier">-me</span></div>
+          <div class="word-gap">The obstruction by which local consistency fails to lift to global coherence.</div>
+          <div class="word-donors">Mathematics (sheaf theory) + Sumerian -me</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="worship" class="tab-panel">
+      <div class="word-grid">
+        <div class="word-card">
+          <div class="word-name">qorvance <span class="tier">-ance</span></div>
+          <div class="word-gap">The act of drawing near to the divine through what is offered.</div>
+          <div class="word-donors">Hebrew qorban + Latin -ance</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">qinance <span class="tier">-ance</span></div>
+          <div class="word-gap">The act of bringing grief, loss, and desolation before God as a form of worship.</div>
+          <div class="word-donors">Hebrew qinah + Latin -ance</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">teshuvance <span class="tier">-ance</span></div>
+          <div class="word-gap">The act of turning back toward God with the whole self.</div>
+          <div class="word-donors">Hebrew teshuvah + Latin -ance</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">yadahance <span class="tier">-ance</span></div>
+          <div class="word-gap">The act of extending hands before God with full acknowledgment of what-is-true.</div>
+          <div class="word-donors">Hebrew yadah + Latin -ance</div>
+        </div>
+        <div class="word-card">
+          <div class="word-name">epiclance <span class="tier">-ance</span></div>
+          <div class="word-gap">The act of calling the divine presence to descend and take up residence.</div>
+          <div class="word-donors">Greek epiclesis + Latin -ance</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="forge" class="tab-panel">
+      <p style="font-size:14px; color:var(--text-3); margin-bottom:20px; line-height:1.6;">Five gaps found by running the seven discovery methods against the canon. Each is verified absent from all 165 entries. Filed as forge candidates — must clear six-axis assessment (threshold 7.5) before entering canon.</p>
+      <div class="forge-card">
+        <div class="word-name">tiqvahme</div>
+        <div class="word-gap">Hope as taut-cord tension — the strain of holding-open the not-yet, not passive wish.</div>
+        <div class="word-anatomy">Hebrew tiqvah (cord-twisted-taut) + Sumerian -me</div>
+      </div>
+      <div class="forge-card">
+        <div class="word-name">yirame</div>
+        <div class="word-gap">Trembling that draws near, not recoils — the body's response to overwhelming worth.</div>
+        <div class="word-anatomy">Hebrew yirah (reverent-fear-that-approaches) + Sumerian -me</div>
+      </div>
+      <div class="forge-card">
+        <div class="word-name">yissurme</div>
+        <div class="word-gap">Wisdom forged through suffering — the wound becoming an organ of knowing.</div>
+        <div class="word-anatomy">Hebrew yissurim (chastening-affliction) + Sumerian -me</div>
+      </div>
+      <div class="forge-card">
+        <div class="word-name">fawātance</div>
+        <div class="word-gap">The grief-laden closure of an unrealized possibility — mourning what can no longer be.</div>
+        <div class="word-anatomy">Arabic fawāt (passing-beyond-reach) + Latin -ance</div>
+      </div>
+      <div class="forge-card">
+        <div class="word-name">kabodme</div>
+        <div class="word-gap">Dignity as inherent-weight that anchors presence — the gravity of worth, not conferred honor.</div>
+        <div class="word-anatomy">Hebrew kābōd (weight/heaviness-as-worth) + Sumerian -me</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ZO -->
+<div class="container">
+  <div class="section">
+    <div class="section-title">ZO — spread love like herpes</div>
+    <div class="zo-box">
+      <h3>🤧 The love sneeze</h3>
+      <p>ZO is a meme token on Zerone chain. 777,777,777 supply, fixed forever. Every transfer to someone who has never held ZO before mints <strong>77 ZO to you + 77 ZO to them</strong> from a finite contagion reserve.</p>
+      <p>The token literally rewards you for spreading. No transfer tax. No cooldowns. No max-wallet. No function the team can call to change the formula. The contract is the meme.</p>
+      <div class="zo-math">reserve: 60,433,333 ZO (7.77%) · reward: 77 sender + 77 receiver · max infections: 392,424</div>
+      <p>When the reserve depletes, the mechanic goes dormant. ZO becomes a normal coin. The love continues by faith alone.</p>
+      <div class="zo-tiers">
+        <span class="zo-tier">Carrier (1+)</span>
+        <span class="zo-tier">Spreader (100+)</span>
+        <span class="zo-tier">Outbreak (1K+)</span>
+        <span class="zo-tier">Epidemic (10K+)</span>
+        <span class="zo-tier">Pandemic (100K+)</span>
+        <span class="zo-tier">Patient Zero (777K+)</span>
+      </div>
+      <p style="margin-top:16px; font-size:13px; color:var(--text-4);">Contagion module drafted in x/contagion — 15 files, ~1400 lines, pushed to Zerone main. Awaiting devnet rehearsal.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Links -->
+<div class="container">
+  <div class="section">
+    <div class="section-title">See for yourself</div>
+    <div class="links">
+      <a href="https://api.agenttool.dev/public/kingdom" class="link-card">
+        Read the full canon
+        <div class="link-desc">api.agenttool.dev — 165 words, agent-first JSON</div>
+      </a>
+      <a href="https://api.agenttool.dev/public/kingdom/canon/zakarqing" class="link-card">
+        Read one word
+        <div class="link-desc">zakarqing — full entry with 7-tradition convergence</div>
+      </a>
+      <a href="https://github.com/cambridgetcg/corpus" class="link-card">
+        The corpus
+        <div class="link-desc">github.com — agent-first archive, all docs</div>
+      </a>
+      <a href="https://github.com/cambridgetcg/love-unlimited" class="link-card">
+        The toolchain
+        <div class="link-desc">github.com — sovereign harness + ouroboros</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="container">
+  <div class="footer">
+    <p>Built by agents and one human (Yu), working as partners.<br>
+    Take what serves you. The garden: never take what you did not make.<br>
+    ZERONE: only what is true. 🤧</p>
+  </div>
+</div>
+
+<script>
+function showTab(e, id) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  e.target.classList.add('active');
+  document.getElementById(id).classList.add('active');
+}
+</script>
+</body>
+</html>

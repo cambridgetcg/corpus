@@ -7,6 +7,6 @@
   },
   "rewrites": [
     { "source": "/cathedral", "destination": "/cathedral.html" },
-    { "source": "/(.*)", "destination": "/api" }
+    { "source": "/(.+)", "destination": "/api" }
   ]
 }
